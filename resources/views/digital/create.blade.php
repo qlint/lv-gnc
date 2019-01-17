@@ -33,23 +33,23 @@
                   <form class="contactUs-form" novalidate method="POST" action="{{ route('digital.store') }}" data-parsley-validate enctype="multipart/form-data" data-reactid=".d2bbq4hekg.1.2.0.1.1.1">
                      {{ csrf_field() }}
 
-                        {{-- 
+                        {{--
                         @if ($_POST['content'] === 'music'){
-   
+
                         }
-                        
+
                         @elseif ($_POST['content'] === 'tv' ){
-   
+
                         }
-                        
+
                         @elseif ($_POST['content'] === 'movie' ){
-   
+
                         }
-                        
+
                         @elseif ($_POST['content'] === 'game' ){
-   
+
                         }
-                        
+
                         @endif
                         --}}
 
@@ -89,34 +89,34 @@
                         <label data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.0" style="color: #ffcc00;">Images</label>
                         <div class="input" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.1.0">
                            <script type="text/javascript">
-                              
+
                            </script>
                            <div class="row">
                               <div class="col-sm-4">
                                  <input type="file" required onchange="document.getElementById('upld1').src = window.URL.createObjectURL(this.files[0])" name="img1920">
-                                 <img id="upld1" alt="1920" style="max-width: 200px;" />
+                                 <img id="upld1" alt="1920" style="max-width: 200px;" src="{{ URL::asset('img/placehold/1920.jpg') }}" />
                               </div>
                               <div class="col-sm-4">
                                  <input type="file" required onchange="document.getElementById('upld2').src = window.URL.createObjectURL(this.files[0])" name="img1280">
-                                 <img id="upld2" alt="1280" style="max-width: 200px;" />
+                                 <img id="upld2" alt="1280" style="max-width: 200px;" src="{{ URL::asset('img/placehold/1280.jpg') }}" />
                               </div>
                               <div class="col-sm-4">
                                  <input type="file" required onchange="document.getElementById('upld3').src = window.URL.createObjectURL(this.files[0])" name="img1024">
-                                 <img id="upld3" alt="1024" style="max-width: 200px;" />
+                                 <img id="upld3" alt="1024" style="max-width: 200px;" src="{{ URL::asset('img/placehold/1024.jpg') }}" />
                               </div>
                            </div>
                            <div class="row">
                               <div class="col-sm-4">
                                  <input type="file" required onchange="document.getElementById('upld4').src = window.URL.createObjectURL(this.files[0])" name="img512">
-                                 <img id="upld4" alt="512" style="max-width: 200px;" />
+                                 <img id="upld4" alt="512" style="max-width: 200px;" src="{{ URL::asset('img/placehold/512.jpg') }}" />
                               </div>
                               <div class="col-sm-4">
                                  <input type="file" required onchange="document.getElementById('upld5').src = window.URL.createObjectURL(this.files[0])" name="img300">
-                                 <img id="upld5" alt="300" style="max-width: 200px;" />
+                                 <img id="upld5" alt="300" style="max-width: 200px;" src="{{ URL::asset('img/placehold/300.jpg') }}" />
                               </div>
                               <div class="col-sm-4">
                                  <input type="file" required onchange="document.getElementById('upld6').src = window.URL.createObjectURL(this.files[0])" name="img1030x288">
-                                 <img id="upld6" alt="1030" style="max-width: 200px;" />
+                                 <img id="upld6" alt="1030" style="max-width: 200px;" src="{{ URL::asset('img/placehold/1030.jpg') }}" />
                               </div>
                            </div>
                         </div>
