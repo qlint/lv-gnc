@@ -62,6 +62,7 @@
                                  <option value="tv" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$1">TV Show</option>
                                  <option value="movie" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$2">Movie</option>
                                  <option value="game" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$3">Game</option>
+                                 <option value="free" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$3">Free Stuff</option>
                               </optgroup>
                            </select>
                         </div>
