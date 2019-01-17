@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 2000" enable-background="new 0 0 2000 2000" xml:space="preserve">
+<title>checkbox-checked</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Grouping-and-buttons" transform="translate(-120.000000, -235.000000)">
+		<g id="checkbox-checked" transform="translate(120.000000, 235.000000)">
+			<polygon id="Fill-1" fill="#F1F1F1" points="0,2000 2000,2000 2000,0 0,0 			"/>
+			<g id="Rectangle-3">
+				<g>
+					<g id="path-1">
+						<rect fill="#FFFFFF" width="2000" height="2000"/>
+					</g>
+				</g>
+				<g>
+					<path fill="#2BB0D8" d="M2000,2000H0V0h2000V2000z M200,1800h1600V200H200V1800z"/>
+				</g>
+			</g>
+			<g id="Stroke-3">
+				<polygon fill="#2BB0D8" points="800,1546.7 373.3,1120 560,933.3 800,1160 1466.7,440 1666.7,626.7 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

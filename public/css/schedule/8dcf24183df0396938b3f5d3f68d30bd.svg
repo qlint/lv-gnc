@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Demo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="S-game-tyrion" transform="translate(-279.000000, -85.000000)">
+            <g id="Page-1" transform="translate(280.000000, 86.000000)">
+                <g id="Group-2">
+                    <path d="M20,0 L7.217,0 C5.838,0 4.556,0.71 3.825,1.88 L0,8 L3.825,14.12 C4.556,15.289 5.838,16 7.217,16 L20,16 C21.105,16 22,15.105 22,14 L22,2 C22,0.895 21.105,0 20,0" id="Fill-1" stroke="#CBCBCB" fill="#FFFFFF"></path>
+                    <polygon id="Fill-3" fill="#404040" points="17.3535 4.3535 16.6465 3.6465 12.9995 7.2925 9.3535 3.6465 8.6465 4.3535 12.2925 7.9995 8.6465 11.6465 9.3535 12.3535 12.9995 8.7075 16.6465 12.3535 17.3535 11.6465 13.7075 7.9995"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

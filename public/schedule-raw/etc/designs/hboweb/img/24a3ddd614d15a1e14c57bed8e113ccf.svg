@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-close-x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-close-x">
+            <g id="icon-close-x-nav-darkGray">
+                <polygon id="Fill-1" fill="#FFFFFF" points="0 13 13 13 13 0 0 0"></polygon>
+                <polygon id="Fill-2" fill="#404040" points="6.4998 5.7928 1.3538 0.6468 0.6458 1.3528 5.7938 6.4998 0.6458 11.6468 1.3538 12.3538 6.4998 7.2068 11.6468 12.3538 12.3538 11.6468 7.2068 6.4998 12.3538 1.3528 11.6468 0.6468"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
