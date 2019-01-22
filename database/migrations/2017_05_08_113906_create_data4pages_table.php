@@ -16,6 +16,8 @@ class CreateData4pagesTable extends Migration
         Schema::create('data4pages', function (Blueprint $table) {
             $table->increments('id');
             $table->string('content');
+            $table->string('genre');
+            $table->string('production');
             $table->string('name');
             $table->string('img1920');
             $table->string('img1280');
