@@ -1,11 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Data4page;
 
 class PagesController extends Controller {
 
 	public function getIndex(){
 		return view('pages.welcome');
+	}
+
+	public function getFree(){
+		$data4pages = Data4page::all()->where('content', 'free');
+		return view('pages.free')->withData4pages($data4pages);
 	}
 
 	public function getTv(){
