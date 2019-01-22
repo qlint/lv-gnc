@@ -38,4 +38,6 @@ Route::get('movies', 'PagesController@getMovies')->name('movies');
 
 Route::get('tv', 'PagesController@getTv')->name('tv');
 
+Route::get('free', 'PagesController@getFree')->name('free-stuff');
+
 Route::get('/', 'PagesController@getIndex')->name('home');
