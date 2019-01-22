@@ -63,8 +63,10 @@ class Data4pageController extends Controller
         /* $model_object_instance = new model; */
         $data4page = new Data4page;
         /* $model_object_instance ->db_column = $request->name; */
-        $data4page->content = $request->content;
-        $data4page->name = $request->name;
+        $data4page->content = $request->content; /* free, movie, series, tv, docu, game, etc*/
+        $data4page->genre = $request->genre; /* the genre of the content */
+        $data4page->production = $request->production; /* name of producer or production house */
+        $data4page->name = $request->name; /* the url slug of the content */
         /*$photoName = $request->$data4page->getClientOriginalName();*/
         $data4page->img1920 = $request->file('img1920')->move('img/fdbu');
         $data4page->img1280 = $request->file('img1280')->move('img/fdbu');
@@ -72,12 +74,12 @@ class Data4pageController extends Controller
         $data4page->img512 = $request->file('img512')->move('img/fdbu');
         $data4page->img300 = $request->file('img300')->move('img/fdbu');
         $data4page->img1030x288 = $request->file('img1030x288')->move('img/fdbu');
-        $data4page->h1Ttle = $request->h1Ttle;
-        $data4page->h4Ttle = $request->h4Ttle;
-        $data4page->desc1 = $request->desc1;
-        $data4page->desc2 = $request->desc2;
-        $data4page->trailer = $request->trailerURL;
-        $data4page->portal = $request->portalURL;
+        $data4page->h1Ttle = $request->h1Ttle; /* the actual name of the content */
+        $data4page->h4Ttle = $request->h4Ttle; /* a subtitle, slogan, maybe catch phrase of the content */
+        $data4page->desc1 = $request->desc1; /* long description */
+        $data4page->desc2 = $request->desc2; /* short description */
+        $data4page->trailer = $request->trailerURL; /* url to trailer vid */
+        $data4page->portal = $request->portalURL; /* url to full vid */
 
         $data4page->save();
 
