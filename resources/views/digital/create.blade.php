@@ -68,16 +68,34 @@
                         </div>
                      </div>
                      <div class="form-group" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0">
-                        <label data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.0" style="color: #ffcc00;">Content Type Tags</label>
+                        <label data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.0" style="color: #ffcc00;">Genre</label>
                         <div class="select " data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1">
-                           <select class="form-control " name="tags" required data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0">
+                           <select class="form-control " name="genre" required data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0">
                               <optgroup label="Select One" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0">
-                                 <option value="series" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Series</option>
-                                 <option value="documentaries" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$1">Documentaries</option>
-                                 <option value="reality" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$2">Reality</option>
-                                 <option value="talk" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$3">Talk</option>
+                                 <option value="action" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Action</option>
+                                 <option value="adventure" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Adventure</option>
+                                 <option value="comedy" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Comedy</option>
+                                 <option value="dancehall" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Dancehall</option>
+                                 <option value="drama" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Drama</option>
+                                 <option value="hiphop" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Hip Hop</option>
+                                 <option value="horror" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Horror</option>
+                                 <option value="jazz" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Jazz</option>
+                                 <option value="pop" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Pop</option>
+                                 <option value="reality" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Reality</option>
+                                 <option value="reggae" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Reggae</option>
+                                 <option value="rnb" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">RnB</option>
+                                 <option value="scifi" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Sci-Fi</option>
+                                 <option value="soul" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Soul</option>
+                                 <option value="talk" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Talk</option>
+                                 <option value="thriller" data-selected="false" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.1.0.$0.$0">Thriller</option>
                               </optgroup>
                            </select>
+                        </div>
+                     </div>
+                     <div class="form-group" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.1">
+                        <label data-reactid=".d2bbq4hekg.1.2.0.1.1.1.0.0" style="color: #ffcc00;">Producer / Production House</label>
+                        <div class="input" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.1.0">
+                           <input class="form-control" placeholder="Name Of Producer Or Production House" type="text" name="production" required data-reactid=".d2bbq4hekg.1.2.0.1.1.1.1.0.0">
                         </div>
                      </div>
                      <div class="form-group" data-reactid=".d2bbq4hekg.1.2.0.1.1.1.1">
