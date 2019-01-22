@@ -66,12 +66,12 @@
                   </ul>
                </nav>
                <ul class="navSchedule" data-reactid=".fmfn96sh6o.1.1.1.1.2">
-                  <li data-reactid=".fmfn96sh6o.1.1.1.1.2.0"><a href="#" class="highlight" data-reactid=".fmfn96sh6o.1.1.1.1.2.0.0">Free Stuff</a></li>
+                  <li data-reactid=".fmfn96sh6o.1.1.1.1.2.0"><a href="{{ route('free-stuff') }}" class="highlight" data-reactid=".fmfn96sh6o.1.1.1.1.2.0.0">Free Stuff</a></li>
                </ul>
             </div>
             <div class="navSearch " data-reactid=".fmfn96sh6o.1.1.1.2"><span data-reactid=".fmfn96sh6o.1.1.1.2.0">Search</span><i class="navSearch-toggleTop" data-reactid=".fmfn96sh6o.1.1.1.2.1"></i><i class="navSearch-toggleBottom" data-reactid=".fmfn96sh6o.1.1.1.2.2"></i></div>
             <div class="headerMain-search" data-reactid=".fmfn96sh6o.1.1.1.3">
-               <form action="/search" data-reactid=".fmfn96sh6o.1.1.1.3.0"><input type="search" name="q" autocomplete="off" class="form-control form-control--light" placeholder="Search Gnyce Distribution" data-reactid=".fmfn96sh6o.1.1.1.3.0.0"></form>
+               <form action="" data-reactid=".fmfn96sh6o.1.1.1.3.0"><input type="search" name="q" autocomplete="off" class="form-control form-control--light" placeholder="Search Gnyce Distribution" data-reactid=".fmfn96sh6o.1.1.1.3.0.0"></form>
             </div>
          </div>
       </header>
