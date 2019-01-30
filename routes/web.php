@@ -10,6 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::resource('digital', 'Data4pageController');
+
+Route::resource('buy', 'BuyController');
+
 Route::get('contentdesc', 'PagesController@getContentdesc');
 
 Route::get('morefrom', 'PagesController@getMorefrom');
@@ -17,8 +21,6 @@ Route::get('morefrom', 'PagesController@getMorefrom');
 Route::get('schedule', 'PagesController@getSchedule')->name('schedule');
 
 Route::get('discover', 'PagesController@getDiscover')->name('discover');
-
-Route::resource('digital', 'Data4pageController');
 
 Route::get('portal', 'PagesController@getPortal')->name('portal');
 
