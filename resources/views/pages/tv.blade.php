@@ -1,5 +1,5 @@
 @extends('sub')
-@section('title','TV')
+@section('title','TV Shows')
 @section('content')
       <div class="app-template" data-reactid=".14zwviuot8g.1.2">
          <main class="wrapperMain" role="main" data-reactid=".14zwviuot8g.1.2.0">
@@ -33,6 +33,7 @@
                      </div>
                   </div>
                </header>
+               <!--
                <div class="fight" data-reactid=".14zwviuot8g.1.2.0.1.1:$1">
                   <header class="fight-header" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.0">
                      <h3 class="fight-branding" style="color:#cdb375;" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.0.0">Drama</h3>
@@ -81,6 +82,25 @@
                   </div>
                   <div class="fight-link" data-reactid=".14zwviuot8g.1.2.0.1.1:$3.3"><a href="" class="button button--small button--primary button--light button--arrow" data-reactid=".14zwviuot8g.1.2.0.1.1:$3.3.0">Check It Out</a></div>
                </div>
+             -->
+             @foreach($tvitems as $item)
+               <div class="fight" data-reactid=".14zwviuot8g.1.2.0.1.1:$1">
+                  <header class="fight-header" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.0">
+                     <h3 class="fight-branding" style="color:#cdb375;" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.0.0">{{ $item->genre }}</h3>
+                     <h2 class="fight-title" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.0.1">{{ $item->production }}</h2>
+                  </header>
+                  <div class="fight-headliner" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.1:$0">
+                     <div class="fight-images fight-image--count-1" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.1:$0.0"><img src="../../{{ $item->img1030x288 }}" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.1:$0.0.$http=2//i=1lv3=1hbo=1com/assets/images/sports/boxing/fights/2017-05-06-canelo-vs-chavez-jr/event/canelo-512x288=1jpg"></div>
+                     <div class="fight-headlinerContent" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.1:$0.1">
+                        <h4 class="fight-subtitle" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.1:$0.1.0">{{ $item->h4Ttle }}</h4>
+                        <div class="fight-headlinerFighters" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.1:$0.1.1">
+                           <div class="fight-headlinerFighter" style="text-align: center;" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.1:$0.1.1.0">{{ $item->h1Ttle }}</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fight-link" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.3"><a href="/digital/{{ $item->id }}" class="button button--small button--primary button--light button--arrow" data-reactid=".14zwviuot8g.1.2.0.1.1:$1.3.0">Check It Out</a></div>
+               </div>
+             @endforeach
             </div>
          </main>
 @endsection
