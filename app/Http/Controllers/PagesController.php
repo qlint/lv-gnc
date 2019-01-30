@@ -15,7 +15,8 @@ class PagesController extends Controller {
 	}
 
 	public function getTv(){
-		return view('pages.tv');
+		$tvitems = Data4page::all()->where('content', 'tv');
+		return view('pages.tv')->withTvitems($tvitems);
 	}
 
 	public function getMovies(){
