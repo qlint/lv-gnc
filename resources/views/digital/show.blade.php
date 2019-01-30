@@ -29,7 +29,7 @@
                   </nav>
                   <footer class="footerProperty" data-reactid=".pdvob9mj9c.1.2.0.0.0.1">
                      <div class="upcomingSchedule" data-reactid=".pdvob9mj9c.1.2.0.0.0.1.1">
-                        <h4 class="upcomingSchedule-heading" data-reactid=".pdvob9mj9c.1.2.0.0.0.1.1.0">Watch {{ $data4page->h1Ttle }}</h4>
+                        <h4 class="upcomingSchedule-heading" data-reactid=".pdvob9mj9c.1.2.0.0.0.1.1.0">Watch "{{ $data4page->h1Ttle }}"</h4>
                         <ol class="upcomingSchedule-list upcomingSchedule-list--someUnavailable" data-reactid=".pdvob9mj9c.1.2.0.0.0.1.1.1">
                            <li class="upcomingSchedule-listItem--go upcomingSchedule-listItem upcomingSchedule-listItem--available" data-reactid=".pdvob9mj9c.1.2.0.0.0.1.1.1.$NOW &amp; GO">
                               <span class="upcomingSchedule-type" data-reactid=".pdvob9mj9c.1.2.0.0.0.1.1.1.$NOW &amp; GO.0">STORE</span>
@@ -75,7 +75,7 @@
                      </li>
                   </ul>
                   <div class="navTertiary-watchLink" data-reactid=".pdvob9mj9c.1.2.0.1.3.1">
-                     <a href="#" class="button button--primary" data-reactid=".pdvob9mj9c.1.2.0.1.3.1.0">Watch</a>
+                     <a href="#" class="button button--primary" data-reactid=".pdvob9mj9c.1.2.0.1.3.1.0">Buy This</a>
                   </div>
                </nav>
                <div class="upcomingSchedule" data-reactid=".pdvob9mj9c.1.2.0.1.4">
